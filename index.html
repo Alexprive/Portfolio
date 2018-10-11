@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="css/myStyle.css">
+    <script src="myScript.js"></script>
+
+    </head>
+<body>
+
+<div class="navbar">
+    <a href="#section1"><button class="button">Home</button></a>
+    <a href="#section2"><button class="button">About me</button></a>
+    <a href="#section3"><button class="button">Skills</button></a>
+    <a href="#section4"><button class="button">Portfolio</button></a>
+    <a href="#section5"><button class="button">Contact</button></a>
+
+</div>
+
+ <div class="wrapper1" id="section1">
+     <div class="grid-3x3-1"></div>
+     <div class="grid-3x3-2"></div>
+     <div class="grid-3x3-3"></div>
+     <div class="grid-3x3-4"></div>
+     <div class="grid-3x3-5">
+         <img src="img/ik.png" width="130">
+         <h1>Welkom!</h1>
+         <h1>Mijn naam is Alex Poot.</h1>
+         <br />
+         <p class="home">Dit is mijn portfolio als webdeveloper.</p>
+     </div>
+     <div class="grid-3x3-6"></div>
+     <div class="grid-3x3-7"></div>
+     <div class="grid-3x3-8"></div>
+     <div class="grid-3x3-9"></div>
+ </div>
+
+<div class="wrapper2" id="section2">
+    <div class="grid-3x3-1"></div>
+    <div class="grid-3x3-2"></div>
+    <div class="grid-3x3-3"></div>
+    <div class="grid-3x3-4"></div>
+    <div class="grid-3x3-5">
+        <h2>About me:</h2>
+        <br />
+        <p class="about">Ik ben een gedreven persoonlijkheid die graag creatief bezig is. Ik ben altijd op zoek naar nieuwe uitdagingen en het uitbreiden van mijn kennis op developement gebied.</p>
+        <br />
+        <p  class="about">Als u op zoek bent naar een enthousiaste code gorilla om samen te werken aan uw nieuwe project en u heeft kwaliteit hoog in het vaandel staan, zoek dan niet verder!</p>
+    </div>
+    <div class="grid-3x3-6"></div>
+    <div class="grid-3x3-7"></div>
+    <div class="grid-3x3-8"></div>
+    <div class="grid-3x3-9"></div>
+</div>
+
+<div class="wrapper3" id="section3">
+    <div class="grid-3x3-1"></div>
+    <div class="grid-3x3-2"></div>
+    <div class="grid-3x3-3"></div>
+    <div class="grid-3x3-4"></div>
+    <div class="grid-3x3-5">
+        <h2>Skills</h2>
+        <h3>Een overzicht van mijn vaardigheden</h3>
+        <br />
+        <p class="skills">HTML5</p>
+        <p class="skills">CSS3</p>
+        <p class="skills">PHP</p>
+        <p class="skills">JavaScript</p>
+        <p class="skills">Borland Delphi / Object Pascal</p>
+        <p class="skills">C++</p>
+        <p class="skills">Clarion Proffesional Develloper</p>
+        <P class="skills">RAD environments</P>
+        <p class="skills">Stuctured Query Language</p>
+        <p class="skills">Relationele Databases</p>
+        <p class="skills">Normaliseren Databases</p>
+        <P class="skills">System Developement Methodologie SDM</P>
+        <p class="skills">System Developement Workbench SDW</p>
+        <p class="skills">Linux</p>
+
+    </div>
+    <div class="grid-3x3-6"></div>
+    <div class="grid-3x3-7"></div>
+    <div class="grid-3x3-8"></div>
+    <div class="grid-3x3-9"></div>
+</div>
+
+    <div class="wrapper4" id="section4">
+        <div class="grid-3x3-1"></div>
+        <div class="grid-3x3-2"></div>
+        <div class="grid-3x3-3"></div>
+        <div class="grid-3x3-4"></div>
+        <div class="grid-3x3-5">
+            <div class="container">
+
+                <div class="mySlides">
+                    <div class="numbertext">1 / 6</div>
+                    <img src="img/aspca_wide.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">2 / 6</div>
+                    <img src="img/sports-wide.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">3 / 6</div>
+                    <img src="img/backyardburgers_wide.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">4 / 6</div>
+                    <img src="img/bbc_wide.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">5 / 6</div>
+                    <img src="img/geekpoint_wide.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">6 / 6</div>
+                    <img src="img/responsive_wide.jpg" style="width:100%">
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                <div class="caption-container">
+                    <p id="caption"></p>
+                </div>
+
+                <div class="row">
+                    <div class="column">
+                        <img class="demo cursor" src="img/aspca.jpg" style="width:100%" onclick="currentSlide(1)" alt="American Society for the Prevention of Cruelty to Animals">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="img/sports.jpg" style="width:100%" onclick="currentSlide(2)" alt="Braintree town FC">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="img/backyardburgers.jpg" style="width:100%" onclick="currentSlide(3)" alt="Backyard Burgers">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="img/bbc.jpg" style="width:100%" onclick="currentSlide(4)" alt="BBC">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="img/geekpoint.jpg" style="width:100%" onclick="currentSlide(5)" alt="GeekPoint">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="img/responsive.jpg" style="width:100%" onclick="currentSlide(6)" alt="Responsive webdesign">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid-3x3-6"></div>
+        <div class="grid-3x3-7"></div>
+        <div class="grid-3x3-8"></div>
+        <div class="grid-3x3-9"></div>
+    </div>
+
+    <div class="wrapper5" id="section5">
+        <div class="grid-3x3-1"></div>
+        <div class="grid-3x3-2"></div>
+        <div class="grid-3x3-3"></div>
+        <div class="grid-3x3-4"></div>
+        <div class="grid-3x3-5">
+            <h1 style="color: black;font-size: 30px;">Contact</h1>
+            <form action="submit.php">
+                <input type="text" style="width:400px; height: 25px;" placeholder="Naam" name="naam"><br /><br />
+                <input type="text" style="width:400px; height: 25px;" placeholder="Achternaam" name="achternaam"><br /><br />
+                <input type="email" style="width:400px; height: 25px;" placeholder="E-mail" name="email"><br /><br />
+                <input type="text" style="width:400px; height: 25px;" placeholder="Onderwerp" name="subject"><br /><br />
+                <textarea name="message" style="width:400px; height:200px;"></textarea><br /><br />
+                <button type="submit" class="buttonsubmit">Verzenden</button>
+            </form>
+        </div>
+        <div class="grid-3x3-6"></div>
+        <div class="grid-3x3-7"></div>
+        <div class="grid-3x3-8"></div>
+        <div class="grid-3x3-9"></div>
+    </div>
+</body>
+</html>
